@@ -30,7 +30,7 @@ export const ContactForm = ({
         type="tel" 
         value={phone}
         onChange={(e) => setPhone(e.target.value)}
-        pattern="^((?:0|\+44)\s?\d{4}\s?\d{6})$" 
+        pattern="^(\+44\s?7\d{3}|\(?07\d{3}\)?)\s?\d{3}\s?\d{3}$" 
         required/>
       </label>
         <input type="submit"></input>
