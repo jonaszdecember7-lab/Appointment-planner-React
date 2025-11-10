@@ -43,7 +43,7 @@ setIsDuplicate(duplicateFound);
         setPhone={setPhone}
         email={email}
         setEmail={setEmail}
-        handleSubmit={handleSubmit}
+        handleSubmit={handleSubmit} 
         isDuplicate={isDuplicate}
         />
       </section>
